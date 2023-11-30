@@ -1,0 +1,8 @@
+#!name=LightRoom
+#!desc=LightRoom-vip
+
+[MITM]
+hostname=photos.adobe.io
+
+[Script]
+http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js
