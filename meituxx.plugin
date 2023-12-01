@@ -1,6 +1,4 @@
-#!name=美图秀秀VIP
-#!desc=𝐌𝐭𝐱𝐱解锁
-
+#!name=美图秀秀VIP#!desc=𝐌𝐭𝐱𝐱解锁
 [MITM]
 hostname= *.xiuxiu.meitu.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, api.posters.meitu.com,api-sub.meitu.com
 [Script]
