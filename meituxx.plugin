@@ -1,4 +1,4 @@
-#!name=美图秀秀VIP#!desc=美图秀秀@叮当猫
+#!name=美图秀秀VIP#!desc= 美图秀秀@叮当猫
 [MITM]
 hostname= *.xiuxiu.meitu.com, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, api.posters.meitu.com,api-sub.meitu.com
 [Script]
