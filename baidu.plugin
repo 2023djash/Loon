@@ -1,5 +1,5 @@
 #!name=Baidu
-#!desc=百度首页净化
+#!desc=百度首页@𝐊𝐞𝐲
 
 [Script]
 http-response ^https?:\/\/(www|m)\.baidu\.com\/?($|\?(from=\w{8,9}|tn=&from=)) script-path=https://raw.githubusercontent.com/2023djash/Loon/main/baiduindex.js, requires-body = true, tag = 百度首页
