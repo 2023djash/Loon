@@ -1,5 +1,5 @@
 #!name=APP开屏去广告
-#!desc=𝐀𝐩𝐩𝐊𝐏𝐢𝐧𝐠大合集
+#!desc=𝐀𝐩𝐩𝐊𝐏𝐢𝐧𝐠@大合集
 
 [URL Rewrite]
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) reject
