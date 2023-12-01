@@ -1,5 +1,5 @@
 #!name = Youtube去广告
-#!desc =𝐀𝐝𝐬.𝐏𝐢𝐏后台播放
+#!desc =𝐘𝐓𝐁净化，后台播放@……
 
 [URL Rewrite]
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) 302 $1$2$3
