@@ -1,5 +1,5 @@
-#!name=Spotify(>=iOS15)
-#!desc=部分解锁
+#!name=Spotify
+#!desc=部分解锁@……
 
 [Mitm]
 hostname =spclient.wg.spotify.com
