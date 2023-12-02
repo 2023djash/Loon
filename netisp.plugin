@@ -1,5 +1,7 @@
 #!name = 入口落地查询
 #!desc = 查看目标节点信息
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_7020.png
+
 
 
 [Script]
