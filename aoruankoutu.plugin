@@ -1,5 +1,5 @@
-#!name=Background
-#!desc=傲软左塘系列@叮当猫
+#!name=Background#!desc=傲软左塘系列@叮当猫
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6983.png
 [MITM]
 hostname=*.aoscdn.com
 [Script]
