@@ -1,5 +1,7 @@
 #!name=APP开屏去广告
 #!desc=开屏净化@大合集
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6979.png
+
 
 [URL Rewrite]
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) reject
