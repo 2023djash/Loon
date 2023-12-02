@@ -1688,35 +1688,35 @@ http:\/\/analytics\.163\.com\/ntes reject
 [Script]
 http-response ^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
 
-http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/\w{5}\/cardlist requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/\w{5}\/cardlist requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
 http-response ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
 
@@ -1726,19 +1726,19 @@ http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nb
 
 http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
 
-http-response ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/api\.weibo\.cn\/\d\/groups\/allgroups\/v\d requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/api\.weibo\.cn\/\d\/groups\/allgroups\/v\d requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/api\.weibo\.cn\/\d\/\w{5}\/(statuses_unread_hot_timeline|timeline) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?:\/\/api\.weibo\.cn\/\d\/\w{5}\/(statuses_unread_hot_timeline|timeline) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/api\.m\.mi\.com\/v1\/app\/start requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+http-response ^https?:\/\/api\.m\.mi\.com\/v1\/app\/start requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
 http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
 
-http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
 http-response ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js
 
@@ -1748,11 +1748,9 @@ http-response ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads re
 
 http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
 
-http-response ^https://new.vip.weibo.cn/littleskin/preview requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https://new.vip.weibo.cn/littleskin/preview requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https://mobile.flightradar24.com/mobile/(user-session|subscribe) requires-body=1,script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/scripts/Flightradar24.js
-
-http-response ^https://api.weibo.cn/2/!/client/light_skin requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+http-response ^https://api.weibo.cn/2/!/client/light_skin requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
 ^http?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch %E9%A3%9E%E7%8C%AA%E6%97%85%E8%A1%8C url-and-header reject-dict
 [MITM]
