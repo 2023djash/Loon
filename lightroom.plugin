@@ -1,5 +1,7 @@
 #!name=LightRoom
 #!desc=𝐋𝐢𝐠𝐡𝐭𝐫𝐨𝐨𝐦解锁@……
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6991.png
+
 
 [MITM]
 hostname=photos.adobe.io
