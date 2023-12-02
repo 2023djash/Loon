@@ -1685,9 +1685,8 @@ http:\/\/analytics\.163\.com\/ntes reject
 (ps|sv|offnavi|newvector|ulog.imap|newloc)(.map)?.(baidu|n.shifen).com reject
 (^https?://passport\.biliintl\.com/x/intl/passport-login/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) 302 $1&s_locale=zh-Hans_PH$35&sim_code=51503$5
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
-[Script]
-http-response ^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
 
+[Script]
 http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
 http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
@@ -1718,14 +1717,6 @@ http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messagefl
 
 http-response ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
-
-http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
-
-http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
-
-http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
-
 http-response ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
 http-response ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
@@ -1736,15 +1727,13 @@ http-response ^https?:\/\/api\.weibo\.cn\/\d\/\w{5}\/(statuses_unread_hot_timeli
 
 http-response ^https?:\/\/api\.m\.mi\.com\/v1\/app\/start requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
-http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
-
 http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/weibo.js
 
 http-response ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/Surge/main/BaiduCloud.js
 
 http-response ^https:\/\/pan\.baidu\.com\/api\/getsyscfg\? requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/Surge/main/BaiduCloud.js
 
-http-response ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads requires-body=1,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidumap.js
+http-response ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/baidumap.js
 
 http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/cainiao.js
 
