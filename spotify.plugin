@@ -1,5 +1,6 @@
 #!name=Spotify
 #!desc=部分解锁@……
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6984.png
 
 [Mitm]
 hostname =spclient.wg.spotify.com
