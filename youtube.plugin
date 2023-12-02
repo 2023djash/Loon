@@ -1,5 +1,7 @@
 #!name = Youtube去广告
 #!desc =𝐘𝐓𝐁净化，后台播放@……
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6994.png
+
 
 [URL Rewrite]
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) 302 $1$2$3
