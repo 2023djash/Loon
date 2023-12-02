@@ -1,5 +1,6 @@
-#!name=微信公众号去广告
-#!desc=微信公众号去广告
+#!name=微信公众号去广告#!desc=微信公众号去广告
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6992.png
+
 
 [MITM]
 hostname=mp.weixin.qq.com
