@@ -1,6 +1,6 @@
 #!name = 京东去广告
 #!desc = 京东净化@RuCu6
-#!icon = 
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_7039.png
 
 [Rule]
 DOMAIN, dns.jd.com, REJECT
