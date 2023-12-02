@@ -1,6 +1,6 @@
 #!name = 知乎去广告
 #!desc = 知乎部分净化@……
-
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_7044.png
 
 [Rule]
 # 知乎拦截部分预加载
