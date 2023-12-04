@@ -4,4 +4,4 @@
 
 
 [Script]
-generic script-path= https://raw.githubusercontent.com/2023djash/Loon/main/mediachark.js, tag=流媒体-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png,time-out=10
+generic script-path= https://raw.githubusercontent.com/2023djash/2023djash/main/js/mediachark.js, tag=流媒体-解锁查询, img-url=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_7021.png,time-out=10
