@@ -1,0 +1,17 @@
+#!name = 京东去广告
+#!desc = 京东净化@RuCu6
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_7039.png
+
+[Rule]
+DOMAIN, dns.jd.com, REJECT
+IP-CIDR, 101.124.19.122/32, REJECT, no-resolve
+IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve
+
+[Rewrite]
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend) reject-dict
+
+[Script]
+http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path = https://raw.githubusercontent.com/2023djash/2023djash/main/js/jingdongAds.js, requires-body = true, tag = 移除京东广告
+
+[Mitm]
+hostname = api.m.jd.com

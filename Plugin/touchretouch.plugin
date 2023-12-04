@@ -1,0 +1,12 @@
+#!name=TouchRetouch
+#!desc=𝐑𝐞𝐭𝐨𝐮𝐜𝐡@……
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6993.png
+
+
+[Script]
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/Loon/main/retouch.js
+
+
+
+[MITM]
+hostname = api.revenuecat.com

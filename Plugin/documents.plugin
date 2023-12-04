@@ -1,0 +1,9 @@
+#!name=Documents
+#!desc=𝐃𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐬解锁@叮当猫
+#!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_7019.png
+
+
+[Script]
+http-request ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/blog-img/main/Documents.js
+[MITM] 
+hostname = license.pdfexpert.com
