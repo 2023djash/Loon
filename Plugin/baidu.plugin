@@ -4,7 +4,7 @@
 
 
 [Script]
-http-response ^https?:\/\/(www|m)\.baidu\.com\/?($|\?(from=\w{8,9}|tn=&from=)) script-path=https://raw.githubusercontent.com/2023djash/Loon/main/baiduindex.js, requires-body = true, tag = 百度首页
+http-response ^https?:\/\/(www|m)\.baidu\.com\/?($|\?(from=\w{8,9}|tn=&from=)) script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/baiduindex.js, requires-body = true, tag = 百度首页
 
 [Mitm]
 hostname = m.baidu.com, www.baidu.com
