@@ -444,13 +444,13 @@ http:\/\/analytics\.163\.com\/ntes reject
 
 [Script]
 
-http-response ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/Surge/main/BaiduCloud.js
+http-response ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/BaiduCloud.js
 
-http-response ^https:\/\/pan\.baidu\.com\/api\/getsyscfg\? requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/Surge/main/BaiduCloud.js
+http-response ^https:\/\/pan\.baidu\.com\/api\/getsyscfg\? requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/BaiduCloud.js
 
 http-response ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/baidumap.js
 
-http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/cainiao.js
+http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/cainiao-json.js
 
 [MITM]
 hostname = *.bilibili.*,*.bilibili.com,*.google.cn,-*cdn*.biliapi.net,*.biliapi.net,-broadcast.chat.bilibili.com,101.201.175.228,103.41.167.*,103.41.167.226,103.41.167.234,103.41.167.235,103.41.167.236,103.41.167.237,103.91.210.141,116.85.2.14,116.85.2.15,118.178.214.118,118.89.204.198,140.179.224.63,180.76.76.200,182.92.251.113,47.100.65.202,4gimg.map.qq.com,,acs.m.taobao.com,ad.12306.cn,afd.baidu.com,api-access.pangolin-sdk-toutiao.com,api.alipan.com,api.gameplus.qq.com,api.live.bilibili.com,api.m.jd.com,api.msn.com,api.pinduoduo.com,app-gw.csdn.net,app.bilibili.com,app.biliintl.com,appconf.mail.163.com,apps.api.ke.com,appwk.baidu.com,assets.msn.com,bdsp-x.jd.com,bgw.xinyue.qq.com,client.app.coc.10086.cn,client.mail.163.com,clientaccess.10086.cn,cn-acs.m.cainiao.com,djcapp.game.qq.com,dsp-x.jd.com,flowplus.meituan.net,gd.10086.cn,gongdu.youshu.cc,grpc.biliapi.net,guide-acs.m.taobao.com,gw.alicdn.com,gw.kaola.com,gx.10086.cn,heic.alicdn.com,httpdns.baidubce.com,img.meituan.net,interface*.music.163.com,iphone.ac.qq.com,issuecdn.baidupcs.com,jdforrepam.com,jdread-api.jd.com,m.client.10010.com,m.msyc.cc,m.sd.10086.cn,m.you.163.com,manga.bilibili.com,mbd.baidu.com,member.alipan.com,open.yun.139.com,yp-kfpt.cmic.site,mgw.mpaas.cn-hangzhou.aliyuncs.com,mi.gdt.qq.com,mime.baidu.com,mlol.qt.qq.com,mp.weixin.qq.com,ms.jr.jd.com,newclient.map.baidu.com,news.ssp.qq.com,otheve.beacon.qq.com,p*.meituan.net,p.du.163.com,pan.baidu.com,passport.biliintl.com,peisongapi.meituan.com,poplayer.template.alibaba.com,r.inews.qq.com,referee.xiaohongshu.com,res.kfc.com.cn,,s3plus.meituan.net,sdk.alibaba.com.ailbaba.me,security.wechat.com,ssl.kohsocialapp.qq.com,support.you.163.com,testflight.apple.com,tiebac.baidu.com,update.pan.baidu.com,wap.js.10086.cn,weixin110.qq.com,wmapi.meituan.com,www.meituan.com,wxa.wxs.qq.com,,zconfig.alibabausercontent.com
