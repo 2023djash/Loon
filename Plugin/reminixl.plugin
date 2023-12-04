@@ -6,7 +6,7 @@
 
 [Script]
 
-http-response ^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/reminixl.js, requires-body=true, timeout=60 ,tag=bending_9
+http-response ^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/ReminiXl.js, requires-body=true, timeout=60 ,tag=bending_9
 
 [MITM]
 
