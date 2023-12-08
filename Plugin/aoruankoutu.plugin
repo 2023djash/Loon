@@ -1,7 +1,10 @@
 #!name=Background
 #!desc=傲软左塘系列@叮当猫
 #!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6983.png
-[Script]
-http-response ^https?:\/\/.*\.(aoscdn\.com|apsapp\.cn) script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/aoruankoutuxl.js, requires-body=true, timeout=60, tag=tongyong3_25
-[MITM]
+[MITM]
+
 hostname = *.aoscdn.com,*.apsapp.cn
+
+[Script]
+
+http-response ^https?:\/\/.*\.(aoscdn\.com|apsapp\.cn) script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/aoruankoutuxl.js, requires-body=true, timeout=60, tag=arqjt
