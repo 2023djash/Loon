@@ -3,10 +3,11 @@
 #!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6993.png
 
 
-[Script]
-http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/retouch.js
-
-
-
 [MITM]
+
 hostname = api.revenuecat.com
+
+[Script]
+
+# > TouchRetouch 解锁永久 Plus
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/\$RCAnonymousID%3A\w{32}|receipts)$ script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/retouch.js, requires-body=true, timeout=60, tag=TouchRetouchPlusCrack
