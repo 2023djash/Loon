@@ -3,8 +3,10 @@
 #!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6982.png
 
 
-[Script]
-http-response ^https:\/\/iap\.etm\.tech\/receipts requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/Collartxl.js
-
 [MITM]
+
 hostname = iap.etm.tech
+
+[Script]
+
+http-response ^https:\/\/iap\.etm\.tech\/receipts script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/Collartxl.js, requires-body=true, timeout=60, tag=Collart
