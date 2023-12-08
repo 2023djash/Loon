@@ -4,8 +4,10 @@
 #!icon=https://raw.githubusercontent.com/2023djash/2023djash/main/applogo/IMG_6992.png
 
 
-[Script]
-http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/wechat.js
-
 [MITM]
+
 hostname = mp.weixin.qq.com
+
+[Script]
+
+http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/wechat.js, requires-body=true, timeout=60, tag=wechat
