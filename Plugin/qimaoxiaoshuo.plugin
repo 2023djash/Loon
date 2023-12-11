@@ -1,0 +1,33 @@
+#!name = 𝐐𝐢𝐦𝐚𝐨.𝐀𝐝𝐬
+#!desc = 七猫@可莉
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/SevenCat.png
+
+[Rule]
+DOMAIN, cdn-new-ad.wtzw.com, REJECT-DICT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+
+[Rewrite]
+# 开屏广告
+^https:\/\/api-cfg\.wtzw\.com\/v1\/splash\/ reject-dict
+# 福利中心
+^https:\/\/xiaoshuo\.wtzw\.com\/app-h5\/freebook\/welfare-center reject
+# 腾格尔打卡喵喵歌
+^https:\/\/api-bc\.wtzw\.com\/api\/v4\/search\/dispose reject-dict
+^https:\/\/xiaoshuo\.wtzw\.com\/api\/v2\/init\/other-data reject-dict
+# 必读榜弹窗
+^https:\/\/api-bc\.wtzw\.com\/api\/v1\/book-store\/config reject-dict
+# 推荐书籍弹窗
+^https:\/\/api-bc\.wtzw\.com\/api\/v1\/book-store\/push-book reject-dict
+# 有声阅读界面广告横幅
+^https:\/\/api-bc\.wtzw\.com\/api\/v1\/operation reject-dict
+# 头条广告SDK
+^https:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/ reject
+# 其他广告
+^https:\/\/api-cfg\.wtzw\.com\/v1\/reward\/ reject
+^https:\/\/api-cfg\.wtzw\.com\/v1\/adv\/ reject
+^https:\/\/api-cfg\.wtzw\.com\/v1\/offline-adv\/index reject-dict
+^https:\/\/xiaoshuo\.wtzw\.com\/api\/v1\/withdraw\/init reject-dict
+^https:\/\/api-cfg\.wtzw\.com\/v1\/operation\/index\?ad_personal_switch reject-dict
+
+[Mitm]
+hostname = api-cfg.wtzw.com, xiaoshuo.wtzw.com, sf3-fe-tos.pglstatp-toutiao.com, api-bc.wtzw.com
