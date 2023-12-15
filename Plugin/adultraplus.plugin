@@ -4,9 +4,9 @@
 
 
 [URL Rewrite]
-^https:\/\/ose1\.caiyun\.feixin\.10086\.cn:8542\/isbo\/openApi\/ _ reject-dict
+^https:\/\/ose1\.caiyun\.feixin\.10086\.cn:8542\/isbo\/openApi\/ reject-dict
 
-^https:\/\/api\.miguvideo\.com\/login\/ l reject-dict
+^https:\/\/api\.miguvideo\.com\/login\/ reject-dict
 
 ^https:\/\/mrp\.mcloud\.139\.com\/mc\/mc-client-service\/openapi\/letter\/query reject-dict
 ^https:\/\/open\.yun\.139\.com\/miniapp\/api reject-dict
