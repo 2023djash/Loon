@@ -24,6 +24,8 @@
 
 ^https:\/\/jiguang\.coc\.10086\.cn\/ reject-dict
 
+^http:\/\/api-fd\.dutils\.com\/privacy\/ reject-dict
+
 ^https:\/\/wx\.10086\.cn\/wmhopenapi\/sdkAuth\/domain\/ reject-dict
 
 ^https:\/\/api\.miguvideo\.com\/login\/ reject-dict
