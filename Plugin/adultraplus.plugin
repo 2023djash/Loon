@@ -24,8 +24,6 @@
 
 ^https:\/\/app-sc\.miguvideo\.com\/app-management\/v1\/staticcache\/ reject-dict
 
-^https:\/\/ose1\.caiyun\.feixin\.10086\.cn:8542\/isbo\/openApi\/ reject-dict
-
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit reject
 
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList reject
