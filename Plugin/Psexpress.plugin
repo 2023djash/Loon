@@ -1,0 +1,11 @@
+#!name=𝐏𝐬𝐄𝐱𝐩𝐫𝐞𝐬𝐬
+#!desc=PS@baby
+#!icon=https://github.com/2023djash/2023djash/raw/main/applogo/IMG_2471.png
+
+[MITM]
+
+hostname = lcs-mobile-cops.adobe.io
+
+[Script]
+
+http-response https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3 script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/PSExpress.js, requires-body=true, timeout=60, tag=PSExpress
