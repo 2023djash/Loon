@@ -1,0 +1,11 @@
+#!name=Github
+#!desc=Github@baby
+#!icon=https://github.com/2023djash/2023djash/raw/main/applogo/IMG_2478.png
+
+[MITM]
+
+hostname = api.github.com
+
+[Script]
+
+http-response https://api.github.com/graphql script-path=https://raw.githubusercontent.com/2023djash/2023djash/main/js/GithubPro.js, requires-body=true, timeout=60, tag=Github
