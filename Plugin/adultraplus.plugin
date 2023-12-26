@@ -188,6 +188,7 @@
 ^https?:\/\/gw\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$ reject
 
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ reject
+
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.(queryadvertise|queryloadingbanner)\/ reject
 
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash reject
@@ -301,6 +302,16 @@ https://support.you.163.com/appversync/check.do reject
 ^https:\/\/app\.bilibili\.com\/x\/resource\/ip reject
 
 ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ reject
+
+^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/ reject-dict
+
+^https:\/\/api\.live\.bilibili\.com\/xlive\/open-interface\/ reject-dict
+
+^https:\/\/pay\.bilibili\.com\/paywallet\/recharge\/getProducts reject-dict
+
+^https:\/\/passport\.bilibili\.com\/x\/passport-login\/type reject-dict
+
+^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/Default reject
 
 # 京东
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo reject
