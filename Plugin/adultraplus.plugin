@@ -56,7 +56,7 @@
 
 ^https:\/\/open\.yun\.139\.com\/miniapp\/api reject-dict
 
-^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/  reject-dict
+^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/ reject-dict
 
 ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ reject
 
